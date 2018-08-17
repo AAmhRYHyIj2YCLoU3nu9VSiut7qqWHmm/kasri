@@ -116,7 +116,6 @@ public class LatLongFXMLController implements Initializable {
 
     }
 
-
     private void calcFeaute(ArrayList<ArrayList<String>> stations, LatLong latLong) {
         ArrayList<Double> distnaces = new ArrayList<>();
         stations.forEach(strings -> {
