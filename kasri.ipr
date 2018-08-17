@@ -316,6 +316,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../giti" />
   </component>
+  <component name="RebarSettings">
+    <rebarPath>E:\Program Files\rebar</rebarPath>
+  </component>
   <component name="SharedFileColors">
     <fileColor scope="All" color="Green" />
   </component>
@@ -335,14 +338,6 @@
     </data-source>
   </component>
   <component name="libraryTable">
-    <library name="lib">
-      <CLASSES>
-        <root url="file://$PROJECT_DIR$/lib" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
-    </library>
     <library name="Maven: aopalliance:aopalliance:1.0">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />

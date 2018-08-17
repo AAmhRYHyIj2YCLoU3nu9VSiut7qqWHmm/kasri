@@ -42,6 +42,7 @@ public class LatLongFXMLController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+        googleMapView.setKey("AIzaSyAjh0Sl5vljWmzKnR5n_7xwI1L-1zAtARc");
         googleMapView.addMapInializedListener(() -> {
             try {
                 configureMap();
@@ -137,7 +138,7 @@ public class LatLongFXMLController implements Initializable {
         final String country = best.get(1);
         System.out.println(stnumbr);
         System.out.println(country);
-        ScriptAPP.scripting(String.format("onday %s 10 26 WIND_SPEED m/s 20000 1973 2017 %s", stnumbr, country));
+        ScriptAPP.scripting(String.format("onday %s 10 26 WIND_SPEED m/s 5000 1973 2017 %s", stnumbr, country));
 
 
     }
